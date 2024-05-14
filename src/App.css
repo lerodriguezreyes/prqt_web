@@ -35,6 +35,8 @@
 .inputButtonText {border-radius: 50px;
     background-color: rgb(80, 108, 255);
    color: white;
+   height: 30px;
+   padding: 0 5;
 }
  .inputText {
     margin-left: 2%;
