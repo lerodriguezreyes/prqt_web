@@ -1,0 +1,12 @@
+.navWrapper, .footerWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    height: 75px;
+    width: 75px
+}
+
+.love {
+    text-align: center;
+}
