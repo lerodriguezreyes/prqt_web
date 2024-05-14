@@ -4,8 +4,8 @@ function footer() {
   return (
     <>
       <div className="footerWrapper">
-        <p> Copyright © 2024 Puerto Rico Quiere Tech - All Rights Reserved.</p>
-        <p>
+        <p className="footerText"> Copyright © 2024 Puerto Rico Quiere Tech - All Rights Reserved.</p>
+        <p className="footerText">
           {" "}
           Powered by{" "}
           <img src="https://res.cloudinary.com/dw1igjvgi/image/upload/v1715361523/PRQT/logo/Ironhack_Logo_no_backgorudn_kqbr2l.png" />{" "}

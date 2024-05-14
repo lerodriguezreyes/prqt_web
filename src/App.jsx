@@ -8,14 +8,16 @@ import Subscribirse from './pages/Subscribirse';
 function App() {
 
   return (
-    <>
+    <section className='backgroundWrapper'>
+    <div className='backgroundImage'>
         <Navbar />
         <Routes>
           <Route path="/" element={<Subscribe />} />
           <Route path="/esp" element={<Subscribirse />} />
         </Routes>
         <Footer />
-    </>
+        </div>
+    </section>
   )
 }
 

@@ -1,12 +1,69 @@
-.navWrapper, .footerWrapper{
-    display: flex;
-    justify-content: space-around;
-}
-.logo {
-    height: 75px;
-    width: 75px
+@font-face {
+  font-family: "ArchivGrotesk_Bold";
+  src: url("../src/fonts/ArchivGrotesk-Bold.otf");
 }
 
+@font-face {
+    font-family: "Haurora";
+    src: url("../src/fonts/Hauora-Regular.otf");
+  }
+
+/* Navbar Styling */
+.logo {
+  height: 75px;
+  width: 75px;
+}
+.navLink,
+.webTitle {
+  font-family: "ArchivGrotesk_Bold";
+  color: black;
+}
+
+/*  Subscribe page styling */
+.header1,
+.header4 {
+  font-family: "ArchivGrotesk_Bold";
+}
+
+.header2, 
+.bodyText, 
+.inputText,
+.inputButtonText {
+    font-family: "Haurora";
+}
+ 
+.inputButtonText {border-radius: 50px;
+    background-color: rgb(80, 108, 255);
+   color: white;
+}
+ .inputText {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50px;
+    width: 200px;
+    height: 25px;
+ }
+
+/* Footer styling */
+.footerText{
+    font-family: "Haurora";
+}
 .love {
-    text-align: center;
+  text-align: center;
+  font-family: "Haurora";
+}
+
+/* Structural elements */
+.navWrapper,
+.footerWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.backgroundWrapper {
+    background-color: rgb(243, 243, 243)
+}
+.backgroundImage {
+    background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708500/PRQT/Backgrounds/PRQT_Desktop_-_bg_zgrmuv.png);
+    background-size: cover;
 }
