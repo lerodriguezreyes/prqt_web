@@ -27,24 +27,21 @@ function Subscribirse() {
 
   return (
     <>
-      <h1 className="header1"> Liderando a la Comunidad Puertorriqueña </h1>
-      <h1 className="header1">
-        {" "}
+      <h1 className="header1"> Liderando a la Comunidad Puertorriqueña
+      
         <Typewriter
           options={{
-            strings: ["Hacia Innovación", "Hacia desarrollo", "Hacia creatividad"],
+            strings: ["a la Innovación", "al desarrollo", "a la creatividad"],
             autoStart: true,
             loop: true,
           }}
-        />{" "}
+        />
       </h1>
-
-      <h2 className="header2"> Conectando líderes de la industria, diseñadores, </h2>
-      <h2 className="header2"> innovadores, desarrollo web para un mejor mañana. </h2>
-      <h4 className="header4">  Conéctate </h4>
-      <p className="bodyText">  ¡Únete a la revolución y sé parte del cambio en el mundo tech! </p>
-      <form onSubmit={submitHandler}>
-        <input
+      <h3 className="header3"> Conectando líderes de la industria, diseñadores, desarroladores, e inovadores para un mejor mañana. </h3>
+      <h2 className="header2"> Conéctate. </h2>
+      <h3 className="header3"> ¡Únete a la revolución y sé parte del cambio en el mundo tech! </h3>
+      <form onSubmit={submitHandler} className="form">
+        <input 
           type="text"
           name="email"
           placeholder="Correo electrónico"
@@ -53,7 +50,7 @@ function Subscribirse() {
         />
         <button 
         className="inputButtonText"
-        type="submit"> Subscríbete </button>
+        type="submit"> Subscribete </button>
       </form>
     </>
   );

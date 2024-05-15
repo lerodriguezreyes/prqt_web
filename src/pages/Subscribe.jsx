@@ -27,22 +27,20 @@ function Subscribe() {
 
   return (
     <>
-      <h1 className="header1"> Leading the Puerto Rican Community </h1>
-      <h1 className="header1">
-        {" "}
+      <h1 className="header1"> Leading the Puerto Rican Community to 
+      
         <Typewriter
           options={{
-            strings: ["To Innovation", "To Development", "To Creativity"],
+            strings: ["Innovation", "Development", " Creativity"],
             autoStart: true,
             loop: true,
           }}
-        />{" "}
+        />
       </h1>
-      <h2 className="header2"> Connecting industry leaders, design thinkers </h2>
-      <h2 className="header1"> and innovators for a better tomorrow. </h2>
-      <h4 className="header4"> Let's Connect </h4>
-      <p className="bodyText"> Join the Next-Generation of Tech Talent in Puerto Rico! </p>
-      <form onSubmit={submitHandler}>
+      <h3 className="header3"> Connecting industry leaders, design thinkers and innovators for a better tomorrow. </h3>
+      <h2 className="header2"> Let's Connect. </h2>
+      <h3 className="header3"> Join the Next-Generation of Tech Talent in Puerto Rico! </h3>
+      <form onSubmit={submitHandler} className="form">
         <input 
           type="text"
           name="email"

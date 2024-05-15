@@ -4,9 +4,9 @@
 }
 
 @font-face {
-    font-family: "Haurora";
-    src: url("../src/fonts/Hauora-Regular.otf");
-  }
+  font-family: "Haurora";
+  src: url("../src/fonts/Hauora-Regular.otf");
+}
 
 /* Navbar Styling */
 .logo {
@@ -19,36 +19,45 @@
   color: black;
 }
 
+.navLinkWrapper {
+  padding: 5px;
+  margin: 0;
+}
+
 /*  Subscribe page styling */
-.header1,
-.header4 {
+.header1 {
   font-family: "ArchivGrotesk_Bold";
 }
 
-.header2, 
-.bodyText, 
+.header2,
+.bodyText,
 .inputText,
 .inputButtonText {
-    font-family: "Haurora";
+  font-family: "Haurora";
 }
- 
-.inputButtonText {border-radius: 50px;
-    background-color: rgb(80, 108, 255);
-   color: white;
-   height: 30px;
-   padding: 0 5;
+
+.inputButtonText {
+  border-radius: 50px;
+  background-color: rgb(80, 108, 255);
+  color: white;
+  height: 50px;
+  width: 100px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
 }
- .inputText {
-    margin-left: 2%;
-    margin-right: 2%;
-    border-radius: 50px;
-    width: 200px;
-    height: 25px;
- }
+
+.inputText {
+
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+}
 
 /* Footer styling */
-.footerText{
-    font-family: "Haurora";
+.footerText,
+.ironText {
+  font-family: "Haurora";
 }
 .love {
   text-align: center;
@@ -62,10 +71,88 @@
   justify-content: space-around;
 }
 
-.backgroundWrapper {
-    background-color: rgb(243, 243, 243)
+.navWrapper {
+  padding-top: 40px;
 }
-.backgroundImage {
-    background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708500/PRQT/Backgrounds/PRQT_Desktop_-_bg_zgrmuv.png);
+
+.backgroundWrapper {
+  background-color: rgb(243, 243, 243);
+}
+
+@media only screen and (min-width: 390px) {
+  .backgroundImage {
+    background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708525/PRQT/Backgrounds/PRQT_Mobile_-_bg_y7gjyp.png);
     background-size: cover;
+    height: 725px;
+  }
+
+  .logo {
+    display: flex;
+    width: 45px;
+    height: 30px;
+    flex-shrink: 0;
+  }
+
+  .webTitle {
+    color: #151313;
+    font-size: 10px;
+  }
+
+  .navLink {
+    color: #151313;
+    font-size: 10px;
+    text-decoration: none;
+  }
+
+  .header1 {
+    font-size: 36px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .header2 {
+    padding-left: 25px;
+    margin: 0;
+  }
+
+  .header3 {
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 45px;
+    margin: 15px 0px;
+    font-weight: normal;
+  }
+
+  .form {
+    padding-left: 18px;
+  }
+
+  .inputText {
+    padding-left: 10px;
+  }
+
+  .footerWrapper {
+    flex-direction: column;
+    padding: 100px 25px 0px 25px;
+    margin: 0;
+    border: 0;
+  }
+
+  .footerText {
+    margin: 0;
+  }
+
+  .ironTextWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ironText {
+    margin-right: 10px;
+  }
+
+  .ironLogo {
+    height: 50px;
+  }
+
 }
