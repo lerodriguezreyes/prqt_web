@@ -156,3 +156,74 @@
   }
 
 }
+
+@media only screen and (min-width: 900px) {
+  .backgroundImage {
+    background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708500/PRQT/Backgrounds/PRQT_Desktop_-_bg_zgrmuv.png);
+    height: 875px;
+  }
+
+  .logo {
+    width: 85px;
+    height: 85px;
+  }
+
+  .webTitle {
+    font-size: 20px;
+  }
+
+  .navLink {
+    font-size: 20px;
+  }
+
+  .header1 {
+    font-size: 36px;
+    padding-left: 155px;
+    padding-right: 700px;
+  }
+
+  .header2 {
+    padding-left: 155px;
+    padding-right: 700px;
+  }
+
+  .header3 {
+    font-size: 18px;
+    padding-left: 155px;
+    padding-right: 700px;
+    font-weight: normal;
+  }
+
+  .form {
+    padding-left: 155px;
+  }
+
+  .inputText {
+    padding-left: 10px;
+  }
+
+  .footerWrapper {
+    flex-direction: column;
+    padding: 100px 25px 0px 25px;
+    margin: 0;
+    border: 0;
+  }
+
+  .footerText {
+    margin: 0;
+  }
+
+  .ironTextWrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ironText {
+    margin-right: 10px;
+  }
+
+  .ironLogo {
+    height: 50px;
+  }
+
+}
