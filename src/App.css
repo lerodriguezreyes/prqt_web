@@ -157,7 +157,7 @@
 
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1024px) {
   .backgroundImage {
     background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708500/PRQT/Backgrounds/PRQT_Desktop_-_bg_zgrmuv.png);
     height: 875px;
@@ -204,18 +204,22 @@
 
   .footerWrapper {
     flex-direction: column;
-    padding: 100px 25px 0px 25px;
+    place-content: center;
+    padding: 100px;
     margin: 0;
     border: 0;
+
   }
 
   .footerText {
     margin: 0;
+align-self: center;
+margin-bottom: 15px;
   }
 
   .ironTextWrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
   }
 
   .ironText {
@@ -223,7 +227,7 @@
   }
 
   .ironLogo {
-    height: 50px;
+    height: 60px;
   }
 
 }
