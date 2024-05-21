@@ -38,7 +38,7 @@ function Subscribe() {
         />
       </h1>
       <h3 className="header3"> Connecting industry leaders, design thinkers and innovators for a better tomorrow. </h3>
-      <h2 className="header2"> Let's Connect. </h2>
+      <h2 className="header2"> Let's Connect </h2>
       <h3 className="header3"> Join the Next-Generation of Tech Talent in Puerto Rico! </h3>
       <form onSubmit={submitHandler} className="form">
         <input 

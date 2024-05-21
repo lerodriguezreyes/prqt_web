@@ -48,7 +48,6 @@
 }
 
 .inputText {
-
   border-radius: 50px;
   width: 300px;
   height: 50px;
@@ -113,6 +112,7 @@
   .header2 {
     padding-left: 25px;
     margin: 0;
+    font-family: "ArchivGrotesk_Bold";
   }
 
   .header3 {
@@ -121,6 +121,7 @@
     padding-right: 45px;
     margin: 15px 0px;
     font-weight: normal;
+    font-family: "Haurora";
   }
 
   .form {
@@ -154,7 +155,6 @@
   .ironLogo {
     height: 50px;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -194,6 +194,9 @@
     font-weight: normal;
   }
 
+  input {
+    border-color: #151313;
+  }
   .form {
     padding-left: 155px;
   }
@@ -208,13 +211,12 @@
     padding: 100px;
     margin: 0;
     border: 0;
-
   }
 
   .footerText {
     margin: 0;
-align-self: center;
-margin-bottom: 15px;
+    align-self: center;
+    margin-bottom: 15px;
   }
 
   .ironTextWrapper {
@@ -229,5 +231,4 @@ margin-bottom: 15px;
   .ironLogo {
     height: 60px;
   }
-
 }
