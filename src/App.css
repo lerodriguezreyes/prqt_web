@@ -81,6 +81,9 @@
 }
 
 @media only screen and (min-width: 390px) {
+  .backgroundWrapper{
+    height: max-content;
+  }
   .backgroundImage {
     background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708525/PRQT/Backgrounds/PRQT_Mobile_-_bg_y7gjyp.png);
     background-size: cover;
@@ -136,7 +139,7 @@
 
   .footerWrapper {
     flex-direction: column;
-    padding: 100px 25px 0px 25px;
+    padding: 70px 25px 0px 25px;
     margin: 0;
     border: 0;
   }
@@ -160,6 +163,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .backgroundWrapper{
+    height: max-content;
+  }
   .backgroundImage {
     background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708500/PRQT/Backgrounds/PRQT_Desktop_-_bg_zgrmuv.png);
     height: 875px;
