@@ -84,6 +84,10 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: "Haurora";
 }
 
+button{
+  border: none;
+}
+
 .inputButtonText {
   border-radius: 50px;
   background-color: rgb(80, 108, 255);
@@ -102,6 +106,9 @@ p, h1, h2, h3, h4, h5, h6 {
   width: 300px;
   height: 50px;
   font-size: 15px;
+  border-style: solid;
+  border-color: rgb(21,19,19);
+
 }
 
 /* Footer styling */
@@ -134,7 +141,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 390px) {
   .backgroundWrapper{
-    height: max-content;
+    min-height: 100vh
   }
   .backgroundImage {
     background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708525/PRQT/Backgrounds/PRQT_Mobile_-_bg_y7gjyp.png);
@@ -215,7 +222,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 1024px) {
   .backgroundWrapper{
-    height: max-content;
+    min-height: 100vh
   }
   .backgroundImage {
     background-image: url(https://res.cloudinary.com/dw1igjvgi/image/upload/v1715708500/PRQT/Backgrounds/PRQT_Desktop_-_bg_zgrmuv.png);

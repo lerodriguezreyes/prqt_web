@@ -36,7 +36,7 @@ function Subscribe() {
   };
 
   return (
-    <>
+    <section>
       <h1 className="header1"> Leading the Puerto Rican Community to 
       
         <Typewriter
@@ -65,7 +65,7 @@ function Subscribe() {
         {errorMessage && <p className="inputText">{errorMessage}</p>}
         {successMessage && <p className="inputText">{successMessage}</p>}
       </form>
-    </>
+    </section>
   );
 }
 

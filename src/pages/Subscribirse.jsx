@@ -36,7 +36,7 @@ function Subscribirse() {
   };
 
   return (
-    <>
+    <section>
       <h1 className="header1"> Liderando a la Comunidad Puertorriqueña
       
         <Typewriter
@@ -65,7 +65,7 @@ function Subscribirse() {
         {errorMessage && <p className="inputText">{errorMessage}</p>}
         {successMessage && <p className="inputText">{successMessage}</p>}
       </form>
-    </>
+    </section>
   );
 }
 
